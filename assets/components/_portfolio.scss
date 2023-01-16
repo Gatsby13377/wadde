@@ -1,0 +1,89 @@
+.portfolio {
+    padding: 102px 0;
+
+    &__content {
+        @include flex(center, center, nowrap);
+        
+    }
+
+    &__title {
+        @include font(500, 32px, $text-black);
+    }
+
+    &__suptitle {
+        @include font(400, 16px, $text-gray);
+        margin-top: 50px;
+        width: 128px;
+        height: 40px;
+    }
+
+    &__right {
+        margin-left: 142px;
+    }
+
+    &__img {
+        width: 555px;
+        height: 450px;
+    }
+
+    &__lineblue {
+        width: 349.36px;
+        height: 4px;
+        background: $bg-blue;
+        position: absolute;
+    }
+    &__linewhite {
+        width: 445px;
+        height: 4px;
+        background: #c4c4c4;
+    }
+    &__line {
+        position: relative;
+    }
+    &__lineblue1 {
+        width: 349.36px;
+        height: 4px;
+        background: $bg-blue;
+        position: absolute;
+    }
+    &__linewhite1 {
+        width: 445px;
+        height: 4px;
+        background: #c4c4c4;
+    }
+    &__line1 {
+        position: relative;
+        margin-top: 64px;
+    }
+    &__suptitle1 {
+        @include font(400, 16px, $text-gray);
+        margin-top: 20px;
+        width: 128px;
+        height: 40px;
+    }
+    &__nothing {
+        width: 600px;
+        height: 1px;
+    }
+    &__lineblue2 {
+        width: 349.36px;
+        height: 4px;
+        background: $bg-blue;
+        position: absolute;
+    }
+    &__linewhite2 {
+        width: 445px;
+        height: 4px;
+        background: #c4c4c4;
+    }
+    &__line2 {
+        position: relative;
+        margin-top: 64px;
+    }
+    &__suptitle2 {
+        @include font(400, 16px, $text-gray);
+        margin-top: 20px;
+        width: 128px;
+        height: 40px;
+    }
+}

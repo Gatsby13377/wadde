@@ -1,0 +1,30 @@
+.video {
+    background: $bg-darkWhithe;
+    padding: 101px 0;
+    &__iframe {
+        width: 1110px;
+        height: 600px;
+        margin-top: 57px;
+    }
+
+    &__title {
+        @include font(500, 32px, $text-black);
+        text-align: center;
+        
+    }
+
+    &__suptitle {
+        @include font(400, 16px, $text-gray);
+        width: 540px;
+        height: 67px;
+        margin-left: 28.5%;
+        line-height: 26px;
+        margin-top: 50px;
+    }
+
+    &__cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

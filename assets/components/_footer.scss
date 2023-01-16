@@ -1,0 +1,29 @@
+.footer {
+    padding: 50px 0;
+    background: $bg-blue;
+    &__item1 {
+        @include font(500, 21px, $text-white);
+    }
+    &__item2 {
+        @include font(400, 13px, $text-white);
+        margin-top: 20px;
+    }
+    &__item3 {
+        position: relative;
+    }
+    &__img {
+        position: absolute;
+        left: 1000px;
+        bottom: 10px;
+    }
+    &__img1 {
+        position: absolute;
+        left: 1070px;
+        bottom: 10px;
+    }
+    &__img2 {
+        position: absolute;
+        left: 1140px;
+        bottom: 10px;
+    }
+}

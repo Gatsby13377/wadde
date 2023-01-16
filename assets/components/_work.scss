@@ -1,0 +1,20 @@
+.work {
+    margin-top: 28px;
+    &__img {
+        width: 450px;
+        height: 450px;
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__view {
+        position: relative;
+    }
+    &__views {
+        position: absolute;
+        right: 180px; 
+        bottom: 195px;
+        
+    }
+}

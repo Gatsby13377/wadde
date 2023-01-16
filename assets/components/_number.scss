@@ -1,0 +1,15 @@
+.number {
+    background: $bg-blue;
+
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        padding: 100px 0;
+    }
+       
+    &__item {
+        width: 141px;
+        height: 50px;
+        
+    }
+}

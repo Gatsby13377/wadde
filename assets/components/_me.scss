@@ -1,0 +1,18 @@
+.me {
+    padding: 119px 0;
+    text-align: center;
+    &__title {
+        @include font(500, 32px, $text-black);
+        margin-bottom: 50px;
+        
+    }
+
+    &__suptitle {
+        @include font(400, 16px, $text-gray);
+        width: 540px;
+        height: 67px;
+        margin-left: 28.5%;
+        
+
+    }
+}
